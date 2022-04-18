@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Curvilingus';
+  src: url(./Curvilingus.eot);
+  src: url(./Curvilingus.eot?#iefix) format('embedded-opentype'),
+       url(./Curvilingus.otf) format('otf'),
+       url(./Curvilingus.svg#Curvilingus) format('svg'),
+       url(./Curvilingus.ttf) format('truetype'),
+       url(./Curvilingus.woff) format('woff'),
+       url(./Curvilingus.woff2) format('woff2');
+}

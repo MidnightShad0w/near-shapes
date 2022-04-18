@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;800&family=Raleway:wght@300;500;600&display=swap');
+@font-face {
+    font-family: 'Curvilingus';
+    src: url(../fonts/Curvilingus.eot);
+    src: url(../fonts/Curvilingus.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/Curvilingus.otf) format('otf'),
+         url(../fonts/Curvilingus.svg#Curvilingus) format('svg'),
+         url(../fonts/Curvilingus.ttf) format('truetype'),
+         url(../fonts/Curvilingus.woff) format('woff'),
+         url(../fonts/Curvilingus.woff2) format('woff2');
+  }
+
+*{
+    box-sizing: border-box;
+}
+
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+}
+
+.list-reset{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.btn-reset{
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* .container{
+  max-width: 1950px;
+  max-height: 1080px;
+  padding: 0 15px;
+  margin: 0 auto;
+} */
+
+.enter-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.logo{
+  font-family: 'Curvilingus';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  padding-left: 80px;
+  padding-top: 60px;
+}
+
+.community{
+  display: flex;
+  width: 145px;
+  height: 60px;
+  padding-top: 43px;
+  margin-right: 65px;
+  justify-content: space-between;
+}
+.twitter-img{
+  width: 100%;
+  height: 100%;
+}
+.twitter{
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  transition: all 500ms ease;
+}
+.instagram-img{
+  width: 100%;
+  height: 100%;
+}
+.instagram{
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  transition: all 500ms ease;
+}
+.twitter:hover{
+  transition: all 500ms ease;
+  -webkit-box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1);
+}
+.instagram:hover{
+  transition: all 500ms ease;
+  -webkit-box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+}
+
+
+.hero{
+  background-image: url(/img/enter-preview.jpg);
+  background-position: center;
+  background-size: cover;  
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+
+.hero-title{
+  margin-top: 291px;
+  margin-bottom: 0;
+  padding-top: 0;
+  font-family: 'Curvilingus';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 138px;
+}
+.hero-subtitle{
+  margin-top: 0;
+  padding-bottom: 125px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 45px;
+  line-height: 53px;
+  /* identical to box height */
+  text-align: center;
+}
+.goto-about{
+  position: relative;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  transition: all 500ms ease;
+}
+.circle{
+  width: 100%;
+  z-index: 990;
+}
+.arrow{
+  position: absolute;
+  top: 62.5px;;
+  left: 22.5px;;
+  z-index: 991;
+}
+.goto-about:hover{
+  /* background: rgb(0, 0, 0); */
+  transition: all 500ms ease;
+  /* -webkit-box-shadow: -1px 2px 15px 6px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: -1px 2px 15px 6px rgba(0, 0, 0, 0.27);
+  box-shadow: -1px 2px 15px 6px rgba(0, 0, 0, 0.27); */
+  transform: scale(1.1);
+  
+}
+/* .goto-about-container:hover{
+  filter: invert(1);
+} */
+
