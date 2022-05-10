@@ -31,6 +31,8 @@
             </div>
         </div>
     </header>
+    <img src="/img/txt-img1.svg" alt="" class="txt-img1">
+    <img src="/img/txt-img2.svg" alt="" class="txt-img2">
     <section class="hero container">
         <div class="hero-container">
             <div class="gallery">
@@ -55,7 +57,7 @@
             </div>
             <div class="about-project">
                 <div class="about-project-container">
-                    <div class="text-container">
+                    <div class="main-text-container">
                             <h1 class="about-project-title">ABOUT THE PROJECT</h1>
                             <h2 class="about-project-subtitle">What we are building and currently working on?
                             </h2>
@@ -77,66 +79,98 @@
                                 </li>
                             </ul>
                         </div>
-                        <!-- тут nav? -->
-                        <div class="nav-container">
+
+                        <div id="navigation" class="nav-container">
                             <div class="nav-items">
-                                <div class="nav-item nav-our-vision">OUR VISION</div>
-                                <div class="nav-item nav-roadmap">ROADMAP</div>
-                                <div class="nav-item nav-partners">OUR PARTNERS</div>
-                                <div class="nav-item nav-team">TEAM</div>
-                                <div class="nav-item nav-info">COLLECTION INFO</div>
-                                <span class="nav-line"></span>
+                                <a tabindex="0" id="nav-item" class="source source-1">OUR VISION</a>
+                                <a tabindex="0" id="nav-item" class="source source-2">ROADMAP</a>
+                                <a tabindex="0" id="nav-item" class="source source-3">OUR PARTNERS</a>
+                                <a tabindex="0" id="nav-item" class="source source-4">TEAM</a>
+                                <a tabindex="0" id="nav-item" class="source source-5">COLLECTION INFO</a>
                             </div>
                             
                         </div>
 
-                        <div class="our-vision">
-                            <div class="text-container">
-                            <h2 class="our-vision-title">Our Vision</h2>
-                            <p class="our-vision-subtitle">
-                                <span class="text-bold">What is&nbsp;the vision?</span>
-                                We&nbsp;at&nbsp;NEAR Shapes are working on&nbsp;the sublimation 
-                                of&nbsp;the gallery and the auction house. The main idea is&nbsp;to&nbsp;combine an 
-                                online auction house in&nbsp;its usual sense and a&nbsp;virtual gallery, where 
-                                users of&nbsp;our site can truly plunge into the world of&nbsp;art, artists and 
-                                collectors, and the world of&nbsp;auctions.
-                            </p>
-                            <p class="our-vision-subtitle">
-                                We&nbsp;believe that a&nbsp;3D&nbsp;gallery with the possibility of&nbsp;direct participation 
-                                in&nbsp;the auction, without any borders, will help you get as&nbsp;close as 
-                                possible to&nbsp;the Metaverse and feel comfortable. Just like if&nbsp;you 
-                                were to&nbsp;put on&nbsp;your best outfit, take your soulmate by&nbsp;the arm 
-                                and come to&nbsp;a&nbsp;magnificent art-event.
-                            </p>
-                            <p class="our-vision-subtitle">
-                                <span class="text-bold">So&nbsp;how does it&nbsp;work?</span>
-                                Let&rsquo;s take a&nbsp;look at&nbsp;a&nbsp;specific example. I, as&nbsp;an&nbsp;artist, 
-                                want to&nbsp;put my&nbsp;work up&nbsp;for auction. In&nbsp;order to&nbsp;start, everything happens 
-                                as&nbsp;usual, the moment of&nbsp;mint and list. It&nbsp;is&nbsp;after these two actions that 
-                                everything changes. Thanks to&nbsp;the 3D&nbsp;space integrated directly into 
-                                the website, I&nbsp;can hang my&nbsp;art somewhere in&nbsp;my&nbsp;gallery and&nbsp;I can 
-                                give anyone the opportunity to&nbsp;see&nbsp;it. A&nbsp;potential collector, entering 
-                                my&nbsp;space in&nbsp;the gallery, expresses a&nbsp;desire to&nbsp;make the first bid 
-                                and start the auction. When the bid goes through, then the fun 
-                                begins. Thanks to&nbsp;moderation and algorithms, under certain 
-                                conditions, my&nbsp;work can become the work of&nbsp;the day and 
-                                appear in&nbsp;the main premises of&nbsp;our auction house. This is 
-                                where anyone can see what is&nbsp;happening and even raise 
-                                the bid. Everything is&nbsp;like a&nbsp;real auction! If&nbsp;the artwork 
-                                gets enough recognition, it&nbsp;can become the art of&nbsp;the 
-                                week and will appear at&nbsp;the entrance to&nbsp;the 3D 
-                                gallery for each user of&nbsp;the website.
-                            </p>
-                            <p class="our-vision-subtitle">
-                                In&nbsp;fairness to&nbsp;the artists and the collectors, NEAR Shapes will 
-                                give the opportunity for you to&nbsp;customize your space as&nbsp;you 
-                                like. As&nbsp;we&nbsp;believe that your expression and your comfort are 
-                                of&nbsp;utmost importance. Customize and design and share your 
-                                style with your friends, family, and community members.
-                            </p>
-                            <span class="ps-text-bold">Without Borders. Seamless. Realistic.</span>
+                        <div class="main-text">
+                            <div class="target target-1">
+                                <div id="id-our-vision" class="our-vision">
+                                    <div class="text-container">
+                                        <h2 class="our-vision-title">Our Vision</h2>
+                                        <p class="our-vision-subtitle">
+                                            <span class="text-bold">What is&nbsp;the vision?</span>
+                                            We&nbsp;at&nbsp;NEAR Shapes are working on&nbsp;the sublimation 
+                                            of&nbsp;the gallery and the auction house. The main idea is&nbsp;to&nbsp;combine an 
+                                            online auction house in&nbsp;its usual sense and a&nbsp;virtual gallery, where 
+                                            users of&nbsp;our site can truly plunge into the world of&nbsp;art, artists and 
+                                            collectors, and the world of&nbsp;auctions.
+                                        </p>
+                                        <p class="our-vision-subtitle">
+                                            We&nbsp;believe that a&nbsp;3D&nbsp;gallery with the possibility of&nbsp;direct participation 
+                                            in&nbsp;the auction, without any borders, will help you get as&nbsp;close as 
+                                            possible to&nbsp;the Metaverse and feel comfortable. Just like if&nbsp;you 
+                                            were to&nbsp;put on&nbsp;your best outfit, take your soulmate by&nbsp;the arm 
+                                            and come to&nbsp;a&nbsp;magnificent art-event.
+                                        </p>
+                                        <p class="our-vision-subtitle">
+                                            <span class="text-bold">So&nbsp;how does it&nbsp;work?</span>
+                                            Let&rsquo;s take a&nbsp;look at&nbsp;a&nbsp;specific example. I, as&nbsp;an&nbsp;artist, 
+                                            want to&nbsp;put my&nbsp;work up&nbsp;for auction. In&nbsp;order to&nbsp;start, everything happens 
+                                            as&nbsp;usual, the moment of&nbsp;mint and list. It&nbsp;is&nbsp;after these two actions that 
+                                            everything changes. Thanks to&nbsp;the 3D&nbsp;space integrated directly into 
+                                            the website, I&nbsp;can hang my&nbsp;art somewhere in&nbsp;my&nbsp;gallery and&nbsp;I can 
+                                            give anyone the opportunity to&nbsp;see&nbsp;it. A&nbsp;potential collector, entering 
+                                            my&nbsp;space in&nbsp;the gallery, expresses a&nbsp;desire to&nbsp;make the first bid 
+                                            and start the auction. When the bid goes through, then the fun 
+                                            begins. Thanks to&nbsp;moderation and algorithms, under certain 
+                                            conditions, my&nbsp;work can become the work of&nbsp;the day and 
+                                            appear in&nbsp;the main premises of&nbsp;our auction house. This is 
+                                            where anyone can see what is&nbsp;happening and even raise 
+                                            the bid. Everything is&nbsp;like a&nbsp;real auction! If&nbsp;the artwork 
+                                            gets enough recognition, it&nbsp;can become the art of&nbsp;the 
+                                            week and will appear at&nbsp;the entrance to&nbsp;the 3D 
+                                            gallery for each user of&nbsp;the website.
+                                        </p>
+                                        <p class="our-vision-subtitle">
+                                            In&nbsp;fairness to&nbsp;the artists and the collectors, NEAR Shapes will 
+                                            give the opportunity for you to&nbsp;customize your space as&nbsp;you 
+                                            like. As&nbsp;we&nbsp;believe that your expression and your comfort are 
+                                            of&nbsp;utmost importance. Customize and design and share your 
+                                            style with your friends, family, and community members.
+                                        </p>
+                                        <span class="ps-text-bold">Without Borders. Seamless. Realistic.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="target target-2">
+                                <div id="id-roadmap" class="roadmap">
+                                    <div class="text-container">
+                                        <p class="sometext">SOME TEXT 2</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="target target-3">
+                                <div id="id-partners" class="partners">
+                                    <div class="text-container">
+                                        <p class="sometext">SOME TEXT 3</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="target target-4">
+                                <div id="id-team" class="team">
+                                    <div class="text-container">
+                                        <p class="sometext">SOME TEXT 4</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="target target-5">
+                                <div id="id-info" class="info">
+                                    <div class="text-container">
+                                        <p class="sometext">SOME TEXT 5</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card">
+                        <div class="card down-card">
                             <img src="img/stage.jpg" alt="stage" class="stage-card">
                             <h2 class="name-card">“stage”</h2>
                             <p class="descr-card">Main Stage Concept</p>
@@ -144,10 +178,9 @@
                     </div>
                 </div>
             </div>
-            <img src="/img/txt-img1.svg" alt="" class="txt-img1">
-            <img src="/img/txt-img2.svg" alt="" class="txt-img2">
+
         </div>
     </section>
-
+    <script src="/script/main.js"></script>
 </body>
 </html>

@@ -162,6 +162,7 @@ body{
     line-height: 70px;
 }
 .card{
+    position: relative;
     padding-top: 70px;
 }
 .name-card{
@@ -190,6 +191,9 @@ body{
 .car907-card{
     width: 360px;
     height: 360px;
+}
+.down-card{
+    padding-top: 400px;
 }
 .about-project{
     height: 3573px;
@@ -267,85 +271,41 @@ body{
     line-height: 41px;
     border-bottom: 1px solid #454545;;
 }
-.nav-item{
+#nav-item{
     color: #454545;
     /* margin-right: 30px; */
     border: 5px solid transparent;
     transition: all 300ms ease;
 }
-.nav-item:hover{
+#nav-item:hover{
+    cursor: pointer;
     color: #fff;
     border-bottom: 3px solid #fff;
     transition: all 300ms ease;
 }
-.nav-item:active{
+#nav-item:focus{
+    cursor: pointer;
     color: #fff;
     border-bottom: 3px solid #fff;
+    transition: all 300ms ease;
 }
-
-/* .nav-line{
-    color: #454545;
-} */
-/* .nav-items {
-	background-color: #123;
-	background-image: linear-gradient(to bottom, #0003, transparent); 
-	border-bottom: 1px solid #0003;
-	box-shadow: 0 0 32px #0003; 
-	font-size: 2em;
-	font-weight: 300;
-} */
-/* .nav-items > div {
-	color: #9ab; */ 
-	/* padding: .75em;
-	text-align: center;
-	text-decoration: none;
-	transition: all .5s;
-}
-.nav-items > div:hover {
-	background: #ffffff06;
-	color: rgb(255, 255, 255);
-}
-.nav-items > .nav-line {
-	/* background: #68a; */
-	/* height: 1px;
-	pointer-events: none;
+/* #nav-item:active{
+    color: #fff;
+    border-bottom: 3px solid #fff;
 } */
 
-/* The Magic */
-/* .nav-items {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
+/* .nav-items > a{
+    text-decoration: none;
 } */
-/* .nav-items {
-	display: grid;
-	grid-template-columns: repeat(var(--items), 1fr);
-	position: relative;
-} */
-/* .nav-items > .nav-line {
-	opacity: 0;
-	transition: all .5s;
-	position: absolute;
-	bottom: 0;
-	left: var(--left, calc(100% / var(--items) * (var(--index) - 1)));
-	width: var(--width, calc(100% / var(--items)));
-	--index: 0;
-}
-.nav-items > div:hover ~ .nav-line {
-	opacity: 1;
-}
-
-.nav-items > div:nth-of-type(1):hover ~ .nav-line { --index: 1; }
-.nav-items > div:nth-of-type(2):hover ~ .nav-line { --index: 2; }
-.nav-items > div:nth-of-type(3):hover ~ .nav-line { --index: 3; }
-.nav-items > div:nth-of-type(4):hover ~ .nav-line { --index: 4; }
-.nav-items > div:nth-of-type(5):hover ~ .nav-line { --index: 5; }
-
-.nav-items > div:last-of-type:hover ~ .nav-line { --index: var(--items); } */
 /* nav */
+
+.main-text{
+    position: relative;
+    width: 1400px;
+    height: 1200px;
+}
 .our-vision{
-    padding-top: 126px;
+    padding-top: 70px;
 }
 .our-vision-title{
     font-family: 'Manrope';
@@ -391,5 +351,43 @@ div{
 .txt-img2{
     position: absolute;
     margin-top: 1550px;
-    margin-left: 340px;
+    margin-left: 350px;
+    z-index: 100;
+}
+/* other nav */
+/* .panel{
+	width: calc(100% - 20px);
+	height: 98%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	transform: translatey(-150%);
+
+	opacity: 0;
+
+	z-index: 2;
+	-webkit-transition: all .8s ease-in-out;
+	-moz-transition: all .8s ease-in-out;
+	-o-transition: all .8s ease-in-out;
+	transition: all .8s ease-in-out;
+}
+.panel:target{
+	transform: translatey(0);
+	opacity: 1;
+}
+.text-container{
+
+	padding-bottom: 30px;
+}
+
+#id-our-vision:target ~ #navigation .nav-items #link-our-vision,
+#id-roadmap:target ~ #navigation .nav-items #link-roadmap,
+#id-partners:target ~ #navigation .nav-items #link-partners,
+#id-team:target ~ #navigation .nav-items #link-team,
+#id-info:target ~ #navigation .nav-items #link-info{
+	background: #000;
+	color: #fff;
+} */
+/* other nav */
+.hidden{
+    display: none;
 }
