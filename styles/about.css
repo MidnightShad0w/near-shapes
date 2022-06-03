@@ -150,8 +150,8 @@ body{
 .gallery{
     padding-right: 80px;
     margin-left: 65px;
-    height: 2378px;
-    width: 650px;
+    max-height: 2378px;
+    max-width: 650px;
     border-right: 1px solid rgb(255, 255, 255);
 }
 .gallery-title{
@@ -195,6 +195,30 @@ body{
 .down-card{
     padding-top: 400px;
 }
+/* after animation styles */
+.animation-done{
+    display: none;
+}
+.new-gallery{
+    padding-right: 80px;
+    margin-left: 65px;
+    max-height: 2378px;
+    max-width: 650px;
+    border-right: 1px solid rgb(255, 255, 255);
+}
+.new-card{
+    position: relative;
+    padding-top: 70px;
+}
+.new-gpu-card{
+    min-width: 500px;
+    min-height: 500px;
+}
+.new-torus-card{
+    width: 360px;
+    height: 360px;
+}
+/* after animation styles */
 .about-project{
     height: 3573px;
     width: 1235px;
